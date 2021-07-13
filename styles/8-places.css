@@ -37,7 +37,49 @@ article h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 3%;
 }
 .article_name {position: absolute; padding: 0px 0px 0px 0px}
 .price_symbol {position: relative; padding: 0px 0px 10px 330px}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-evenly;
+	position: relative;
+}
+
+
+.max_guest {
+    background-image: url("/images/icon_group.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+
+}
+.number_rooms {
+    background-image: url("/images/icon_bed.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.number_bathrooms {
+    background-image: url("/images/icon_bath.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.information p {
+	margin: 0;
+	position: absolute;
+	bottom: 10px;
+}
+.user {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my_home_description {
+    padding-bottom: 63px;
+}
